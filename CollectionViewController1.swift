@@ -36,7 +36,7 @@ class CollectionViewController1: UICollectionViewController {
         //            let itemsPerRow:CGFloat = 4
         //            let hardCodedPadding:CGFloat = 5
         let itemWidth = collectionView.bounds.width
-        let itemHeight = collectionView.bounds.height
+        var itemHeight:CGSize?
         
         return CGSize(width: itemWidth, height: itemHeight)
     }
